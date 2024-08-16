@@ -1,0 +1,92 @@
+[0m[1mmodule.eks.module.eks_managed_node_group["node2"].data.aws_iam_policy_document.assume_role_policy[0]: Reading...[0m[0m
+[0m[1mmodule.eks.data.aws_caller_identity.current: Reading...[0m[0m
+[0m[1mmodule.eks.module.kms.data.aws_caller_identity.current[0]: Reading...[0m[0m
+[0m[1mmodule.eks.data.aws_iam_policy_document.assume_role_policy[0]: Reading...[0m[0m
+[0m[1mmodule.eks.data.aws_partition.current: Reading...[0m[0m
+[0m[1mmodule.eks.module.eks_managed_node_group["node2"].data.aws_partition.current: Reading...[0m[0m
+[0m[1mmodule.eks.module.eks_managed_node_group["node1"].data.aws_partition.current: Reading...[0m[0m
+[0m[1mmodule.eks.module.eks_managed_node_group["node1"].data.aws_iam_policy_document.assume_role_policy[0]: Reading...[0m[0m
+[0m[1mmodule.eks.module.kms.data.aws_partition.current[0]: Reading...[0m[0m
+[0m[1mmodule.eks.module.eks_managed_node_group["node2"].data.aws_partition.current: Read complete after 0s [id=aws][0m
+[0m[1mmodule.eks.data.aws_partition.current: Read complete after 0s [id=aws][0m
+[0m[1mmodule.eks.module.kms.data.aws_partition.current[0]: Read complete after 0s [id=aws][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["node1"].data.aws_partition.current: Read complete after 0s [id=aws][0m
+[0m[1mmodule.eks.aws_cloudwatch_log_group.this[0]: Refreshing state... [id=/aws/eks/sockShop/cluster][0m
+[0m[1mmodule.vpc.aws_vpc.this[0]: Refreshing state... [id=vpc-0ea1bce5942fcacb0][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["node1"].data.aws_caller_identity.current: Reading...[0m[0m
+[0m[1mmodule.eks.module.eks_managed_node_group["node2"].data.aws_caller_identity.current: Reading...[0m[0m
+[0m[1mmodule.eks.data.aws_iam_policy_document.assume_role_policy[0]: Read complete after 0s [id=1530481229][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["node1"].data.aws_iam_policy_document.assume_role_policy[0]: Read complete after 0s [id=1734879000][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["node2"].data.aws_iam_policy_document.assume_role_policy[0]: Read complete after 0s [id=1734879000][0m
+[0m[1mmodule.eks.aws_iam_role.this[0]: Refreshing state... [id=sockShop-cluster-20240813005402891900000003][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["node2"].aws_iam_role.this[0]: Refreshing state... [id=node-group2-eks-node-group-20240813005402878700000002][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["node1"].aws_iam_role.this[0]: Refreshing state... [id=node-group1-eks-node-group-20240813005402878700000001][0m
+[0m[1mmodule.eks.module.kms.data.aws_caller_identity.current[0]: Read complete after 0s [id=655297006387][0m
+[0m[1mmodule.eks.data.aws_caller_identity.current: Read complete after 0s [id=655297006387][0m
+[0m[1mmodule.eks.data.aws_iam_session_context.current: Reading...[0m[0m
+[0m[1mmodule.eks.data.aws_iam_session_context.current: Read complete after 0s [id=arn:aws:iam::655297006387:user/altschoolSockShopUser][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["node2"].data.aws_caller_identity.current: Read complete after 1s [id=655297006387][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["node1"].data.aws_caller_identity.current: Read complete after 1s [id=655297006387][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["node1"].aws_iam_role_policy_attachment.this["AmazonEC2ContainerRegistryReadOnly"]: Refreshing state... [id=node-group1-eks-node-group-20240813005402878700000001-20240813005406731200000007][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["node2"].aws_iam_role_policy_attachment.this["AmazonEC2ContainerRegistryReadOnly"]: Refreshing state... [id=node-group2-eks-node-group-20240813005402878700000002-20240813005406385300000004][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["node1"].aws_iam_role_policy_attachment.this["AmazonEKSWorkerNodePolicy"]: Refreshing state... [id=node-group1-eks-node-group-20240813005402878700000001-20240813005407072400000009][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["node1"].aws_iam_role_policy_attachment.this["AmazonEKS_CNI_Policy"]: Refreshing state... [id=node-group1-eks-node-group-20240813005402878700000001-20240813005406631900000006][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["node2"].aws_iam_role_policy_attachment.this["AmazonEKSWorkerNodePolicy"]: Refreshing state... [id=node-group2-eks-node-group-20240813005402878700000002-20240813005406450400000005][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["node2"].aws_iam_role_policy_attachment.this["AmazonEKS_CNI_Policy"]: Refreshing state... [id=node-group2-eks-node-group-20240813005402878700000002-20240813005406781900000008][0m
+[0m[1mmodule.eks.aws_iam_role_policy_attachment.this["AmazonEKSVPCResourceController"]: Refreshing state... [id=sockShop-cluster-20240813005402891900000003-2024081300540766440000000a][0m
+[0m[1mmodule.eks.aws_iam_role_policy_attachment.this["AmazonEKSClusterPolicy"]: Refreshing state... [id=sockShop-cluster-20240813005402891900000003-2024081300540771590000000b][0m
+[0m[1mmodule.eks.module.kms.data.aws_iam_policy_document.this[0]: Reading...[0m[0m
+[0m[1mmodule.eks.module.kms.data.aws_iam_policy_document.this[0]: Read complete after 0s [id=1402115397][0m
+[0m[1mmodule.eks.module.kms.aws_kms_key.this[0]: Refreshing state... [id=4fe3aa1e-1257-4cee-b8ea-67e670d34f2e][0m
+[0m[1mmodule.vpc.aws_subnet.public[1]: Refreshing state... [id=subnet-00a8e3261e59d9956][0m
+[0m[1mmodule.vpc.aws_default_route_table.default[0]: Refreshing state... [id=rtb-007b05a8d6bfa65c4][0m
+[0m[1mmodule.vpc.aws_route_table.private[0]: Refreshing state... [id=rtb-0819c44c6635caa9c][0m
+[0m[1mmodule.eks.aws_security_group.cluster[0]: Refreshing state... [id=sg-00fb937bf3ed37543][0m
+[0m[1mmodule.vpc.aws_default_security_group.this[0]: Refreshing state... [id=sg-00a6c919a0c46354f][0m
+[0m[1mmodule.vpc.aws_route_table.public[0]: Refreshing state... [id=rtb-0f6165b9e5f17db4e][0m
+[0m[1mmodule.vpc.aws_default_network_acl.this[0]: Refreshing state... [id=acl-049b49a6aa2726ba3][0m
+[0m[1mmodule.vpc.aws_subnet.public[0]: Refreshing state... [id=subnet-0a6cca4b7ef529598][0m
+[0m[1mmodule.eks.aws_security_group.node[0]: Refreshing state... [id=sg-039293180526916d2][0m
+[0m[1mmodule.vpc.aws_subnet.private[0]: Refreshing state... [id=subnet-07370da27c3b5192f][0m
+[0m[1mmodule.vpc.aws_subnet.private[1]: Refreshing state... [id=subnet-09fe5c814491867a0][0m
+[0m[1mmodule.vpc.aws_internet_gateway.this[0]: Refreshing state... [id=igw-01360bccf786dceae][0m
+[0m[1mmodule.eks.module.kms.aws_kms_alias.this["cluster"]: Refreshing state... [id=alias/eks/sockShop][0m
+[0m[1mmodule.eks.aws_iam_policy.cluster_encryption[0]: Refreshing state... [id=arn:aws:iam::655297006387:policy/sockShop-cluster-ClusterEncryption20240813005435778300000011][0m
+[0m[1mmodule.eks.aws_security_group_rule.node["ingress_cluster_4443_webhook"]: Refreshing state... [id=sgrule-1013552776][0m
+[0m[1mmodule.eks.aws_security_group_rule.node["ingress_cluster_kubelet"]: Refreshing state... [id=sgrule-2126350600][0m
+[0m[1mmodule.eks.aws_security_group_rule.node["ingress_cluster_8443_webhook"]: Refreshing state... [id=sgrule-428356303][0m
+[0m[1mmodule.eks.aws_security_group_rule.node["ingress_cluster_6443_webhook"]: Refreshing state... [id=sgrule-181669614][0m
+[0m[1mmodule.eks.aws_security_group_rule.node["ingress_self_coredns_tcp"]: Refreshing state... [id=sgrule-1382687142][0m
+[0m[1mmodule.eks.aws_security_group_rule.node["ingress_cluster_9443_webhook"]: Refreshing state... [id=sgrule-2099839236][0m
+[0m[1mmodule.eks.aws_security_group_rule.node["ingress_nodes_ephemeral"]: Refreshing state... [id=sgrule-1827713092][0m
+[0m[1mmodule.eks.aws_security_group_rule.node["egress_all"]: Refreshing state... [id=sgrule-1758107154][0m
+[0m[1mmodule.eks.aws_security_group_rule.node["ingress_cluster_443"]: Refreshing state... [id=sgrule-1791276761][0m
+[0m[1mmodule.eks.aws_security_group_rule.node["ingress_self_coredns_udp"]: Refreshing state... [id=sgrule-164265399][0m
+[0m[1mmodule.eks.aws_security_group_rule.cluster["ingress_nodes_443"]: Refreshing state... [id=sgrule-281394258][0m
+[0m[1mmodule.vpc.aws_route_table_association.private[1]: Refreshing state... [id=rtbassoc-0fd4810f96842812d][0m
+[0m[1mmodule.vpc.aws_route_table_association.private[0]: Refreshing state... [id=rtbassoc-0eb9454adffd2cd59][0m
+[0m[1mmodule.vpc.aws_route.public_internet_gateway[0]: Refreshing state... [id=r-rtb-0f6165b9e5f17db4e1080289494][0m
+[0m[1mmodule.vpc.aws_eip.nat[0]: Refreshing state... [id=eipalloc-08e02b64c15c8be8c][0m
+[0m[1mmodule.eks.aws_iam_role_policy_attachment.cluster_encryption[0]: Refreshing state... [id=sockShop-cluster-20240813005402891900000003-20240813005437389600000012][0m
+[0m[1mmodule.vpc.aws_route_table_association.public[0]: Refreshing state... [id=rtbassoc-054a46cea70bfb068][0m
+[0m[1mmodule.vpc.aws_route_table_association.public[1]: Refreshing state... [id=rtbassoc-0a5366f0ca56424d4][0m
+[0m[1mmodule.vpc.aws_nat_gateway.this[0]: Refreshing state... [id=nat-0cfb0e0e5d727c4e0][0m
+[0m[1mmodule.vpc.aws_route.private_nat_gateway[0]: Refreshing state... [id=r-rtb-0819c44c6635caa9c1080289494][0m
+[0m[1mmodule.eks.aws_eks_cluster.this[0]: Refreshing state... [id=sockShop][0m
+[0m[1mmodule.eks.aws_eks_access_entry.this["cluster_creator"]: Refreshing state... [id=sockShop:arn:aws:iam::655297006387:user/altschoolSockShopUser][0m
+[0m[1mmodule.eks.time_sleep.this[0]: Refreshing state... [id=2024-08-13T01:05:22Z][0m
+[0m[1mmodule.eks.data.tls_certificate.this[0]: Reading...[0m[0m
+[0m[1mmodule.eks.module.eks_managed_node_group["node2"].aws_launch_template.this[0]: Refreshing state... [id=lt-0a2bdc619b0f84a1d][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["node1"].aws_launch_template.this[0]: Refreshing state... [id=lt-090ba27ead954985e][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["node2"].module.user_data.null_resource.validate_cluster_service_cidr: Refreshing state... [id=241030691][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["node1"].module.user_data.null_resource.validate_cluster_service_cidr: Refreshing state... [id=2018073513][0m
+[0m[1mmodule.eks.aws_eks_access_policy_association.this["cluster_creator_admin"]: Refreshing state... [id=sockShop#arn:aws:iam::655297006387:user/altschoolSockShopUser#arn:aws:eks::aws:cluster-access-policy/AmazonEKSClusterAdminPolicy][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["node2"].aws_eks_node_group.this[0]: Refreshing state... [id=sockShop:node-group2-20240813010527853500000019][0m
+[0m[1mmodule.eks.module.eks_managed_node_group["node1"].aws_eks_node_group.this[0]: Refreshing state... [id=sockShop:node-group1-20240813010527828500000017][0m
+[0m[1mmodule.eks.data.tls_certificate.this[0]: Read complete after 1s [id=99d41e43229a4cdaf4141f3e8310e6d95c31dab9][0m
+[0m[1mmodule.eks.aws_iam_openid_connect_provider.oidc_provider[0]: Refreshing state... [id=arn:aws:iam::655297006387:oidc-provider/oidc.eks.us-east-1.amazonaws.com/id/B50B73019E313A9FB6E54DDDBB9FBBAD][0m
+
+[0m[1m[32mNo changes.[0m[1m Your infrastructure matches the configuration.[0m
+
+[0mTerraform has compared your real infrastructure against your configuration
+and found no differences, so no changes are needed.
